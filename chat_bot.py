@@ -21,7 +21,7 @@ import json
 # 記得改token
 # 記得改token
 # 記得改token
-TOKEN = '406778162:AAFugYJShkVRcD7VqzdzT6vhS0GmTPYbMlw'
+TOKEN = input("Please input your bot token")
 
 
 # In[8]:
