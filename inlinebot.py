@@ -34,7 +34,7 @@ tagDict = {}
 def load_json():
     import json
 
-    with open('data2.json', 'r', encoding='UTF-8') as f:
+    with open('data.json', 'r', encoding='UTF-8') as f:
         data=json.load(f)
 
     for img in data:
