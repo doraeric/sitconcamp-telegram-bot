@@ -27,8 +27,23 @@ import logging
 # Enable logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
-
 logger = logging.getLogger(__name__)
+
+# Load json
+tagDict = {}
+def load_json():
+    import json
+
+    with open('data2.json', 'r', encoding='UTF-8') as f:
+        data=json.load(f)
+
+    for img in data:
+        for patt in img['pattern']:
+                pre_url = []
+                if patt in tagDict:
+                    pre_url = tagDict[patt]
+                pre_url.append(img['url'])
+                tagDict[patt] = pre_url
 
 # Define a few command handlers. These usually take the two arguments bot and
 # update. Error handlers also receive the raised TelegramError object in error.
@@ -73,11 +88,13 @@ def inlinequery(bot, update):
 
     update.inline_query.answer(results)
 
+import random
 def echo(bot, update):
     txt = update.message.text
-    if re.search('黑人問號', txt):
-        bot.send_photo(chat_id=update.message.chat_id, photo='http://i.imgur.com/2NIcsCB.jpg')
-
+    for pat, urls in tagDict.items():
+        if re.search(pat, txt):
+            bot.send_photo(chat_id=update.message.chat_id, photo=random.choice(urls))
+            break
 
 def error(bot, update, error):
     logger.warning('Update "%s" caused error "%s"' % (update, error))
@@ -95,6 +112,9 @@ def main():
             TOKEN = TOKEN.rstrip()
     if not TOKEN:
         TOKEN = input("Please input your bot token: ")
+
+    # Load json
+    load_json()
 
     # Create the Updater and pass it your bot's token.
     updater = Updater(TOKEN)
