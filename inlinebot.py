@@ -77,6 +77,9 @@ def inlinequery(bot, update):
 
     update.inline_query.answer(results)
 
+def echo(bot, update):
+    bot.send_message(chat_id=update.message.chat_id, text=update.message.text)
+
 
 def error(bot, update, error):
     logger.warning('Update "%s" caused error "%s"' % (update, error))
@@ -95,6 +98,10 @@ def main():
 
     # on noncommand i.e message - echo the message on Telegram
     dp.add_handler(InlineQueryHandler(inlinequery))
+
+    from telegram.ext import MessageHandler, Filters
+    echo_handler = MessageHandler(Filters.text, echo)
+    dp.add_handler(echo_handler)
 
     # log all errors
     dp.add_error_handler(error)
