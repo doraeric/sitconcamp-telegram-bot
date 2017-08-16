@@ -47,7 +47,7 @@ def escape_markdown(text):
 
 def inlinequery(bot, update):
     query = update.inline_query.query
-    results = list()    
+    results = list()
 
     results.append(InlineQueryResultArticle(id=uuid4(),
                                             title="Caps",
