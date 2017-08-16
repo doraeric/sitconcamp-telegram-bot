@@ -78,7 +78,9 @@ def inlinequery(bot, update):
     update.inline_query.answer(results)
 
 def echo(bot, update):
-    bot.send_message(chat_id=update.message.chat_id, text=update.message.text)
+    txt = update.message.text
+    if re.search('黑人問號', txt):
+        bot.send_photo(chat_id=update.message.chat_id, photo='http://i.imgur.com/2NIcsCB.jpg')
 
 
 def error(bot, update, error):
