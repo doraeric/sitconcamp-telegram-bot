@@ -33,12 +33,11 @@ logger = logging.getLogger(__name__)
 # Define a few command handlers. These usually take the two arguments bot and
 # update. Error handlers also receive the raised TelegramError object in error.
 def start(bot, update):
-    update.message.reply_text('Hi!')
-
+    update.message.reply_text('想跟人起爭議嗎？找"圖戰機器人"吧！\n使用方法：\n@IMwarbot 黑人問號\n\n按 /help 獲得更多資訊！')
+    bot.send_photo(chat_id=update.message.chat_id, photo='http://i.imgur.com/0yEJDZJ.jpg')
 
 def help(bot, update):
-    update.message.reply_text('Help!')
-
+    update.message.reply_text('本機器人收錄近期知名梗圖,內容包含"鸚鵡兄弟"、"中國有嘻哈"、"靠北工程師"...等等')
 
 def escape_markdown(text):
     """Helper function to escape telegram markup symbols"""
@@ -48,7 +47,7 @@ def escape_markdown(text):
 
 def inlinequery(bot, update):
     query = update.inline_query.query
-    results = list()
+    results = list()    
 
     results.append(InlineQueryResultArticle(id=uuid4(),
                                             title="Caps",
