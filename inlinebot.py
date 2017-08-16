@@ -30,9 +30,6 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 logger = logging.getLogger(__name__)
 
-# maybe need a config file
-TOKEN = input("Please input your bot token: ")
-
 # Define a few command handlers. These usually take the two arguments bot and
 # update. Error handlers also receive the raised TelegramError object in error.
 def start(bot, update):
@@ -88,6 +85,17 @@ def error(bot, update, error):
 
 
 def main():
+    # Read token from file
+    TOKEN = ''
+    token_file = "token.txt"
+    if os.path.isfile(token_file):
+        f = open(token_file, 'r')
+        TOKEN = f.read()
+        if TOKEN:
+            TOKEN = TOKEN.rstrip()
+    if not TOKEN:
+        TOKEN = input("Please input your bot token: ")
+
     # Create the Updater and pass it your bot's token.
     updater = Updater(TOKEN)
 
