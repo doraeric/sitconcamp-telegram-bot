@@ -86,6 +86,7 @@ def error(bot, update, error):
 
 def main():
     # Read token from file
+    import os.path
     TOKEN = ''
     token_file = "token.txt"
     if os.path.isfile(token_file):
