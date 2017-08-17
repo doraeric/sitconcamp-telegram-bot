@@ -213,7 +213,7 @@
 	},
 	{
 		"url": "https://www.86kx.com/uploads/allimg/160325/11214344K-5.jpg",
-		"pattern": ["傻逼"]
+		"pattern": ["傻逼","煞筆"]
 	},
 	{
 		"url": "http://image.knowing.asia/80c5a7af-8c95-4f92-a0bd-58d2fcda2f84/f013b771ed4cd312ad669a41fa03494d.gif",
@@ -348,14 +348,6 @@
 		"pattern": ["水"]
 	},
 	{
-	    "pattern": ["煞筆"],
-	    "url": "https://www.86kx.com/uploads/allimg/160325/11214344K-5.jpg"
-	},
-	{
-		"pattern": ["怕"],
-		"url": "http://image.knowing.asia/80c5a7af-8c95-4f92-a0bd-58d2fcda2f84/f013b771ed4cd312ad669a41fa03494d.gif"
-	},
-	{
 		"pattern": ["藥"],
 		"url": "http://pic1.win4000.com/pic/e/0d/9548847409.jpg"
 	},
@@ -384,7 +376,7 @@
 		"url": "https://i1.read01.com/uploads/0D87ur00.jpg"
 	},
 	{
-		"pattern": ["Q"],
+		"pattern": ["(^|\\s)Q($|\\s)"],
 		"url": "http://pic.9ht.com/up/2016-6/2016630163713068.jpg"
 	},
 	{
@@ -424,7 +416,7 @@
 		"url": "http://ubq.ubiaoqing.com/ubiaoqing57e7a62fa8f0c30629.jpg"
 	},
 	{
-		"pattern": ["?"],
+		"pattern": ["(^|\\s)?($|\\s)"],
 		"url": "http://read.html5.qq.com/image?src=forum&q=5&r=0&imgflag=7&imageUrl=mmbiz.qpic.cn/mmbiz/ic1Jyvc3nMq1pn7P3TQhgrdrbicwPQBjj1bCPXK07NV9M0fDAb3a4fZEwIyHfI8fMiaPTluA48ISG5ANXFIoOF7sg/0?wx_fmt=jpeg"
 	},
 	{
