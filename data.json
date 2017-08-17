@@ -213,7 +213,7 @@
 	},
 	{
 		"url": "https://www.86kx.com/uploads/allimg/160325/11214344K-5.jpg",
-		"pattern": ["傻逼""煞筆"]
+		"pattern": ["傻逼", "煞筆"]
 	},
 	{
 		"url": "http://cdn.clickme.net/Gallery/2017/08/03/276fabbc7e183af4dab5c295102c0cd9.jpg",
@@ -265,11 +265,11 @@
 	},
 	{
 		"url": "http://cdn.news.ebc.net.tw/images/2017/05/05/149397168373560x6eebyS1u.jpg",
-		"pattern": ["黑人問號", "(^|\\s)問號($|\\s)" "(^|\\s)\\?\\?\\?($|\\s)"]
+		"pattern": ["黑人問號", "(^|\\s)問號($|\\s)", "(^|\\s)\\?\\?\\?($|\\s)"]
 	},
 	{
 		"url": "https://i.imgur.com/SGpPC3v.jpg",
-		"pattern": ["黑人問號", "(^|\\s)問號($|\\s)" "(^|\\s)\\?\\?\\?($|\\s)"]
+		"pattern": ["黑人問號", "(^|\\s)問號($|\\s)", "(^|\\s)\\?\\?\\?($|\\s)"]
 	},
 	{
 		"url": "http://pic.pimg.tw/photowars/1387857878-4037880548.jpg",
@@ -458,5 +458,9 @@
 	{
 		"url":"http://g-search2.alicdn.com/bao/uploaded/i2/53281613/TB20UmOn9FjpuFjSspbXXXagVXa_!!53281613.jpg_240x240q50",
 		"pattern":["漂亮"]
+	},
+	{
+		"url":"http://i.imgur.com/Rdfps9b.jpg",
+		"pattern":["到此為止"]
 	}
 ]
