@@ -265,11 +265,11 @@
 	},
 	{
 		"url": "http://cdn.news.ebc.net.tw/images/2017/05/05/149397168373560x6eebyS1u.jpg",
-		"pattern": ["黑人問號", "(^|\\s)問號($|\\s)", "\\?\\?\\?"]
+		"pattern": ["黑人問號", "(^|\\s)問號($|\\s)", "(^|\\s)\\?\\?\\?($|\\s)"]
 	},
 	{
 		"url": "https://i.imgur.com/SGpPC3v.jpg",
-		"pattern": ["黑人問號", "(^|\\s)問號($|\\s)", "\\?\\?\\?"]
+		"pattern": ["黑人問號", "(^|\\s)問號($|\\s)", "(^|\\s)\\?\\?\\?($|\\s)"]
 	},
 	{
 		"url": "http://pic.pimg.tw/photowars/1387857878-4037880548.jpg",
@@ -412,7 +412,7 @@
 		"url": "http://ubq.ubiaoqing.com/ubiaoqing57e7a62fa8f0c30629.jpg"
 	},
 	{
-		"pattern": ["(^|\\s)\\?($|\\s)"],
+		"pattern": ["(^|\\s)\\?\\?\\?($|\\s)"],
 		"url": "http://read.html5.qq.com/image?src=forum&q=5&r=0&imgflag=7&imageUrl=mmbiz.qpic.cn/mmbiz/ic1Jyvc3nMq1pn7P3TQhgrdrbicwPQBjj1bCPXK07NV9M0fDAb3a4fZEwIyHfI8fMiaPTluA48ISG5ANXFIoOF7sg/0?wx_fmt=jpeg"
 	},
 	{
