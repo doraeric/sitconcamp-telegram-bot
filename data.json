@@ -257,7 +257,11 @@
 	},
 	{
 		"url": "http://imgs20.iaweg.com/pic/HTTP2ltZy50dXBpYW56ai5jb20vdXBsb2Fkcy9hbGxpbWcvMTYwNzI5LzktMTYwSDkxNTI0NDUuanBn.jpg",
-		"pattern": ["黑人問號"]
+		"pattern": ["黑人問號", "(^|\\s)問號($|\\s)", "\\?\\?\\?"]
+	},
+	{
+		"url": "https://i.imgur.com/SGpPC3v.jpg",
+		"pattern": ["黑人問號", "(^|\\s)問號($|\\s)", "\\?\\?\\?"]
 	},
 	{
 		"url": "http://pic.pimg.tw/photowars/1387857878-4037880548.jpg",
