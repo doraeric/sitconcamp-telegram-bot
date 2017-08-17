@@ -54,6 +54,13 @@ def start(bot, update):
 def help(bot, update):
     update.message.reply_text('本機器人收錄近期知名梗圖,內容包含：\n鸚鵡兄弟\n鎖鏈康妮\n靠北工程師\nHTTP貓\n..')
 
+def list(bot, update):
+    pic_list = []
+    for pat, urls in tagDict.items():
+        pic_list.append(pat)
+    li = ' '.join(pic_list)
+    update.message.reply_text(li)
+
 def escape_markdown(text):
     """Helper function to escape telegram markup symbols"""
     escape_chars = '\*_`\['
@@ -125,6 +132,7 @@ def main():
     # on different commands - answer in Telegram
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("help", help))
+    dp.add_handler(CommandHandler("list", list))
 
     # on noncommand i.e message - echo the message on Telegram
     dp.add_handler(InlineQueryHandler(inlinequery))

@@ -522,5 +522,45 @@
 	{
 		"url":"http://i.imgur.com/TK0nEVb.jpg",
 		"pattern":["到此為止", "終於結束"]
+	},
+	{
+		"url":"https://truth.bahamut.com.tw/s01/201701/cfba0a5dc6a383d40b2787e07e59636f.JPG",
+		"pattern":["互相傷害"]
+	},
+	{
+		"url": "http://i.imgur.com/ioQvF.jpg",
+		"pattern": ["(c|C)8763", "821091", "星爆"]
+	},
+	{
+		"url": "http://cdn.edgecast.steamstatic.com/steamcommunity/public/images/avatars/05/05314b11de9c34dcbf3919db7b81a65c40588083_full.jpg",
+		"pattern": ["(Y|y)(e|E)(e|E)"]
+	},
+	{
+		"url": "https://imgur.dcard.tw/83KNRhu.jpg",
+		"pattern": ["輸贏"]
+	},
+	{
+		"url": "https://pbs.twimg.com/media/CATb-WvUUAEPgf1.jpg",
+		"pattern": ["矮鵝"]
+	},
+	{
+		"url": "http://img.appledaily.com.tw/images/ReNews/20150904/640_15688127ad120e242eb38418072fd94f.jpg",
+		"pattern": ["早安", "認同請分享"]
+	},
+	{
+		"url": "https://simg314.magcasa.com/content_images/2015/10/01/147648/1443710704_6255.jpg",
+		"pattern": ["早安", "認同請分享"]
+	},
+	{
+		"url": "https://imgur.dcard.tw/dFmUwR2.jpg",
+		"pattern": ["(想要|渴望).*力量"]
+	},
+	{
+		"url": "http://img.ltn.com.tw/Upload/liveNews/BigPic/600_phplBGAjV.jpg",
+		"pattern": ["我的老天鵝"]
+	},
+	{
+		"url": "https://assets.iask.tw/attachment/image/58292d1e270389a1038b4568",
+		"pattern": ["我的老天鵝"]
 	}
 ]
