@@ -52,7 +52,7 @@ def start(bot, update):
     bot.send_photo(chat_id=update.message.chat_id, photo='http://i.imgur.com/0yEJDZJ.jpg')
 
 def help(bot, update):
-    update.message.reply_text('本機器人收錄近期知名梗圖,內容包含"鸚鵡兄弟"、"中國有嘻哈"、"靠北工程師"、"HTTP貓"...等等')
+    update.message.reply_text('本機器人收錄近期知名梗圖,內容包含：\n鸚鵡兄弟\n鎖鏈康妮\n靠北工程師\nHTTP貓\n..')
 
 def escape_markdown(text):
     """Helper function to escape telegram markup symbols"""
