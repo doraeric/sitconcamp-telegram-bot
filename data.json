@@ -562,5 +562,13 @@
 	{
 		"url": "https://assets.iask.tw/attachment/image/58292d1e270389a1038b4568",
 		"pattern": ["我的老天鵝"]
+	},
+	{
+		"url": "http://cdn2.ettoday.net/images/869/d869624.jpg",
+		"pattern": ["吃"]
+	},
+	{
+		"url": "http://i.imgur.com/H2GM4W9.jpg",
+		"pattern": ["垃圾", "柯P", "柯文哲"]
 	}
 ]
