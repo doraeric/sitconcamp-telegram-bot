@@ -160,11 +160,15 @@
 		"pattern": ["431"]
 	},
 	{
-		"url": "https://http.cat/414",
-		"pattern": ["451"]
+		"url": "https://http.cat/444",
+		"pattern": ["444"]
 	},
 	{
-		"url": "https://http.cat/414",
+		"url": "https://http.cat/450",
+		"pattern": ["450"]
+	},
+	{
+		"url": "https://http.cat/451",
 		"pattern": ["451"]
 	},
 	{
@@ -196,8 +200,16 @@
 		"pattern": ["508"]
 	},
 	{
+		"url": "https://http.cat/509",
+		"pattern": ["509"]
+	},
+	{
 		"url": "https://http.cat/511",
 		"pattern": ["511"]
+	},
+	{
+		"url": "https://http.cat/599",
+		"pattern": ["599"]
 	},
 	{
 		"url": "https://www.86kx.com/uploads/allimg/160325/11214344K-5.jpg",
