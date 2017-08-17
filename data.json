@@ -213,7 +213,7 @@
 	},
 	{
 		"url": "https://www.86kx.com/uploads/allimg/160325/11214344K-5.jpg",
-		"pattern": ["傻逼","煞筆"]
+		"pattern": ["傻逼""煞筆"]
 	},
 	{
 		"url": "http://cdn.clickme.net/Gallery/2017/08/03/276fabbc7e183af4dab5c295102c0cd9.jpg",
@@ -265,11 +265,11 @@
 	},
 	{
 		"url": "http://cdn.news.ebc.net.tw/images/2017/05/05/149397168373560x6eebyS1u.jpg",
-		"pattern": ["黑人問號", "(^|\\s)問號($|\\s)", "(^|\\s)\\?\\?\\?($|\\s)"]
+		"pattern": ["黑人問號", "(^|\\s)問號($|\\s)" "(^|\\s)\\?\\?\\?($|\\s)"]
 	},
 	{
 		"url": "https://i.imgur.com/SGpPC3v.jpg",
-		"pattern": ["黑人問號", "(^|\\s)問號($|\\s)", "(^|\\s)\\?\\?\\?($|\\s)"]
+		"pattern": ["黑人問號", "(^|\\s)問號($|\\s)" "(^|\\s)\\?\\?\\?($|\\s)"]
 	},
 	{
 		"url": "http://pic.pimg.tw/photowars/1387857878-4037880548.jpg",
@@ -344,119 +344,119 @@
 		"pattern": ["水"]
 	},
 	{
-		"pattern": ["藥"],
-		"url": "http://pic1.win4000.com/pic/e/0d/9548847409.jpg"
+		"url": "http://pic1.win4000.com/pic/e/0d/9548847409.jpg",
+		"pattern": ["藥"]
 	},
 	{
-		"pattern": ["抱"],
-		"url": "http://5.pic.9ht.com/thumb/up/2016-6/14669948994553907_460_380.jpg"
+		"url": "http://5.pic.9ht.com/thumb/up/2016-6/14669948994553907_460_380.jpg",
+		"pattern": ["抱"]
 	},
 	{
-		"pattern": ["揍"],
-		"url": "http://0.pic.9ht.com/thumb/up/2016-6/14669948752344282_460_380.jpg"
+		"url": "http://0.pic.9ht.com/thumb/up/2016-6/14669948752344282_460_380.jpg",
+		"pattern": ["揍"]
 	},
 	{
-		"pattern": ["可愛"],
-		"url": "http://inews.gtimg.com/newsapp_match/0/136670421/0"
+		"url": "http://inews.gtimg.com/newsapp_match/0/136670421/0",
+		"pattern": ["可愛"]
 	},
 	{
-		"pattern": ["聊天"],
-		"url": "http://p2.wmpic.me/article/2017/04/19/1492568875_tgdopfzh.jpg"
+		"url": "http://p2.wmpic.me/article/2017/04/19/1492568875_tgdopfzh.jpg",
+		"pattern": ["聊天"]
 	},
 	{
-		"pattern": ["醜"],
-		"url": "http://dingyue.nosdn.127.net/mRfdQQ4y6FxYR9zUlOXHnazTPutYyaz77FJi45mTDvtm21462098801452compressflag.jpg"
+		"url": "http://dingyue.nosdn.127.net/mRfdQQ4y6FxYR9zUlOXHnazTPutYyaz77FJi45mTDvtm21462098801452compressflag.jpg",
+		"pattern": ["醜"]
 	},
 	{
-		"pattern": ["萌"],
-		"url": "https://i1.read01.com/uploads/0D87ur00.jpg"
+		"url": "https://i1.read01.com/uploads/0D87ur00.jpg",
+		"pattern": ["萌"]
 	},
 	{
-		"pattern": ["(^|\\s)Q($|\\s)"],
-		"url": "http://pic.9ht.com/up/2016-6/2016630163713068.jpg"
+		"url": "http://pic.9ht.com/up/2016-6/2016630163713068.jpg",
+		"pattern": ["(^|\\s)Q($|\\s)"]
 	},
 	{
-		"pattern": ["森7"],
-		"url": "http://img.doutula.com/production/uploads/image//2017/03/06/20170306788245_JRqmUH.jpeg"
+		"url": "http://img.doutula.com/production/uploads/image//2017/03/06/20170306788245_JRqmUH.jpeg",
+		"pattern": ["森7"]
 	},
 	{
-		"pattern": ["胖"],
-		"url": "http://read.html5.qq.com/image?src=forum&q=5&r=0&imgflag=7&imageUrl=http://mmbiz.qpic.cn/mmbiz_jpg/ibte5YjUeeRVIHJicoeSGOs0Xf3MTzPKTHicMPNjrvriccKULdUhPkKgA4icJJTnvHckxFAd5ZzDqMicfvJIzB7ODkEA/0?wx_fmt=jpeg"
+		"url": "http://read.html5.qq.com/image?src=forum&q=5&r=0&imgflag=7&imageUrl=http://mmbiz.qpic.cn/mmbiz_jpg/ibte5YjUeeRVIHJicoeSGOs0Xf3MTzPKTHicMPNjrvriccKULdUhPkKgA4icJJTnvHckxFAd5ZzDqMicfvJIzB7ODkEA/0?wx_fmt=jpeg",
+		"pattern": ["胖"]
 	},
 	{
-		"pattern": ["親"],
-		"url": "http://imgs22.iaweg.com/pic/HTTP3YxLnF6b25lLmNjL3BpYy8yMDE2MDcvMjQvMTYvMDMvNTc5NDc2NDI3ZmQ0NzcxMy5qcGclMjE2MDB4NjAwLmpwZwloglog.jpg"
+		"url": "http://imgs22.iaweg.com/pic/HTTP3YxLnF6b25lLmNjL3BpYy8yMDE2MDcvMjQvMTYvMDMvNTc5NDc2NDI3ZmQ0NzcxMy5qcGclMjE2MDB4NjAwLmpwZwloglog.jpg",
+		"pattern": ["親"]
 	},
 	{
-		"pattern": ["慌"],
-		"url": "http://www.wed114.cn/jiehun/uploads/allimg/160426/39_160426101148_2.jpg"
+		"url": "http://www.wed114.cn/jiehun/uploads/allimg/160426/39_160426101148_2.jpg",
+		"pattern": ["慌"]
 	},
 	{
-		"pattern": ["冷靜"],
-		"url": "https://cbu01.alicdn.com/img/ibank/2016/563/872/3659278365_1743032699.jpg?__r__=1479797022126"
+		"url": "https://cbu01.alicdn.com/img/ibank/2016/563/872/3659278365_1743032699.jpg?__r__=1479797022126",
+		"pattern": ["冷靜"]
 	},
 	{
-		"pattern": ["靜靜"],
-		"url": "http://read.html5.qq.com/image?src=forum&q=5&r=0&imgflag=7&imageUrl=mmbiz.qpic.cn/mmbiz/vJ6wrw6Uoyf2FD98rSvFf3STaYCic6ZgJPiarylYgquY0JD4nvqCr8wuKAjxXHkyLYhM1g5HEWfaaaBk3NN3mMag/0?wx_fmt=jpeg"
+		"url": "http://read.html5.qq.com/image?src=forum&q=5&r=0&imgflag=7&imageUrl=mmbiz.qpic.cn/mmbiz/vJ6wrw6Uoyf2FD98rSvFf3STaYCic6ZgJPiarylYgquY0JD4nvqCr8wuKAjxXHkyLYhM1g5HEWfaaaBk3NN3mMag/0?wx_fmt=jpeg",
+		"pattern": ["靜靜"]
 	},
 	{
-		"pattern": ["嚇"],
-		"url": "http://read.html5.qq.com/image?src=forum&q=5&r=0&imgflag=7&imageUrl=http://mmbiz.qpic.cn/mmbiz/JiaC5icayicz59Ow9FNhyrjJIS9a4TIJ3RNJEh37JrlTLaWo4khticVbdibHV9O25I9VN5MzyCUMPp4CrH0EqstED4Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1"
+		"url": "http://read.html5.qq.com/image?src=forum&q=5&r=0&imgflag=7&imageUrl=http://mmbiz.qpic.cn/mmbiz/JiaC5icayicz59Ow9FNhyrjJIS9a4TIJ3RNJEh37JrlTLaWo4khticVbdibHV9O25I9VN5MzyCUMPp4CrH0EqstED4Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1",
+		"pattern": ["嚇"]
 	},
 	{
-		"pattern": ["套路"],
-		"url": "http://img.xiazaizhijia.com/uploads/2016/1102/20161102091123353.jpg"
+		"url": "http://img.xiazaizhijia.com/uploads/2016/1102/20161102091123353.jpg",
+		"pattern": ["套路"]
 	},
 	{
-		"pattern": ["吃土"],
-		"url": "http://ubq.ubiaoqing.com/ubiaoqing57e7a62fa8f0c30629.jpg"
+		"url": "http://ubq.ubiaoqing.com/ubiaoqing57e7a62fa8f0c30629.jpg",
+		"pattern": ["吃土"]
 	},
 	{
-		"pattern": ["(^|\\s)\\?\\?\\?($|\\s)"],
-		"url": "http://read.html5.qq.com/image?src=forum&q=5&r=0&imgflag=7&imageUrl=mmbiz.qpic.cn/mmbiz/ic1Jyvc3nMq1pn7P3TQhgrdrbicwPQBjj1bCPXK07NV9M0fDAb3a4fZEwIyHfI8fMiaPTluA48ISG5ANXFIoOF7sg/0?wx_fmt=jpeg"
+		"url": "http://read.html5.qq.com/image?src=forum&q=5&r=0&imgflag=7&imageUrl=mmbiz.qpic.cn/mmbiz/ic1Jyvc3nMq1pn7P3TQhgrdrbicwPQBjj1bCPXK07NV9M0fDAb3a4fZEwIyHfI8fMiaPTluA48ISG5ANXFIoOF7sg/0?wx_fmt=jpeg",
+		"pattern": ["(^|\\s)\\?\\?\\?($|\\s)"]
 	},
 	{
-		"pattern": ["呵"],
-		"url": "http://ubq.ubiaoqing.com/ubiaoqing47c0edea10a09a9fb6a9f0d2b2f24075.jpg"
+		"url": "http://ubq.ubiaoqing.com/ubiaoqing47c0edea10a09a9fb6a9f0d2b2f24075.jpg",
+		"pattern": ["呵"]
 	},
 	{
-		"pattern": ["握草"],
-		"url": "http://ubq.ubiaoqing.com/ubiaoqing7bb8a28be81c1df3e074207911b87871.jpg"
+		"url": "http://ubq.ubiaoqing.com/ubiaoqing7bb8a28be81c1df3e074207911b87871.jpg",
+		"pattern": ["握草"]
 	},
 	{
-		"pattern": ["浪"],
-		"url": "https://i1.read01.com/uploads/0G16KSeCP9.jpg"
+		"url": "https://i1.read01.com/uploads/0G16KSeCP9.jpg",
+		"pattern": ["浪"]
 	},
 	{
-		"pattern": ["打"],
-		"url": "http://read.html5.qq.com/image?src=forum&q=5&r=0&imgflag=7&imageUrl=mmbiz.qpic.cn/mmbiz/6oeoib2OSoUTLybyDtvnF1rtDuAzicHQrgKONAz2gwgAnhvWibibN6IdH9vZV41N5PPFm59pVm5rG7JN9icZwOxb0LQ/0?wx_fmt=jpeg"
+		"url": "http://read.html5.qq.com/image?src=forum&q=5&r=0&imgflag=7&imageUrl=mmbiz.qpic.cn/mmbiz/6oeoib2OSoUTLybyDtvnF1rtDuAzicHQrgKONAz2gwgAnhvWibibN6IdH9vZV41N5PPFm59pVm5rG7JN9icZwOxb0LQ/0?wx_fmt=jpeg",
+		"pattern": ["打"]
 	},
 	{
-		"pattern": ["智障"],
-		"url": "http://2.pic.9ht.com/thumb/up/2016-6/14669948755709394_460_380.jpg"
+		"url": "http://2.pic.9ht.com/thumb/up/2016-6/14669948755709394_460_380.jpg",
+		"pattern": ["智障"]
 	},
 	{
-		"pattern": ["看不"],
-		"url": "http://www.wed114.cn/jiehun/uploads/allimg/160426/39_160426101043_3.jpg"
+		"url": "http://www.wed114.cn/jiehun/uploads/allimg/160426/39_160426101043_3.jpg",
+		"pattern": ["看不"]
 	},
 	{
-		"pattern":["安慰"],
-		"url":"https://i1.kknews.cc/large/c13000371500794a22d"
+		"url":"https://i1.kknews.cc/large/c13000371500794a22d",
+		"pattern":["安慰"]
 	},
 	{
-		"pattern":["最後一口"],
-		"url":"http://pic1.win4000.com/pic/9/09/7765847374.jpg"
+		"url":"http://pic1.win4000.com/pic/9/09/7765847374.jpg",
+		"pattern":["最後一口"]
 	},
 	{
-		"pattern":["打擾"],
-		"url":"http://www.vvfeng.com/data/upload/ueditor/20170426/59007749577ba.jpg"
+		"url":"http://www.vvfeng.com/data/upload/ueditor/20170426/59007749577ba.jpg",
+		"pattern":["打擾"]
 	},
 	{
-		"pattern":["上天"],
-		"url":"http://downza.img.zz314.com/edu/pc/wlgj-1008/2016-04-19/d0789c92db637eb7b67611b4827324bc.jpg"
+		"url":"http://downza.img.zz314.com/edu/pc/wlgj-1008/2016-04-19/d0789c92db637eb7b67611b4827324bc.jpg",
+		"pattern":["上天"]
 	},
 	{
-		"pattern":["漂亮"],
-		"url":"http://g-search2.alicdn.com/bao/uploaded/i2/53281613/TB20UmOn9FjpuFjSspbXXXagVXa_!!53281613.jpg_240x240q50"
+		"url":"http://g-search2.alicdn.com/bao/uploaded/i2/53281613/TB20UmOn9FjpuFjSspbXXXagVXa_!!53281613.jpg_240x240q50",
+		"pattern":["漂亮"]
 	}
 ]
