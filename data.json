@@ -473,55 +473,55 @@
 	},
 	{
 		"url":"http://i.imgur.com/Rdfps9b.jpg",
-		"pattern":["到此為止", "終於結束"]
+		"pattern":["到此為止", "終於結束", "結束了"]
 	},
 	{
 		"url":"http://i.imgur.com/fYP40j8.jpg",
-		"pattern":["到此為止", "終於結束"]
+		"pattern":["到此為止", "終於結束", "結束了"]
 	},
 	{
 		"url":"http://i.imgur.com/DFongdi.jpg",
-		"pattern":["到此為止", "終於結束"]
+		"pattern":["到此為止", "終於結束", "結束了"]
 	},
 	{
 		"url":"http://i.imgur.com/mjrLQZp.jpg",
-		"pattern":["到此為止", "終於結束"]
+		"pattern":["到此為止", "終於結束", "結束了"]
 	},
 	{
 		"url":"https://i.imgur.com/V4HIwly.jpg",
-		"pattern":["到此為止", "終於結束"]
+		"pattern":["到此為止", "終於結束", "結束了"]
 	},
 	{
 		"url":"https://truth.bahamut.com.tw/s01/201706/da0b27e8f97b97b245abcd2566729409.JPG",
-		"pattern":["到此為止", "終於結束"]
+		"pattern":["到此為止", "終於結束", "結束了"]
 	},
 	{
 		"url":"https://truth.bahamut.com.tw/s01/201706/84885bcba848284b58aa4d055fc161cb.PNG",
-		"pattern":["到此為止", "終於結束"]
+		"pattern":["到此為止", "終於結束", "結束了"]
 	},
 	{
 		"url":"https://truth.bahamut.com.tw/s01/201706/6e81f0204a56e9d3b91480b9dcbda3cc.JPG",
-		"pattern":["到此為止", "終於結束"]
+		"pattern":["到此為止", "終於結束", "結束了"]
 	},
 	{
 		"url":"https://truth.bahamut.com.tw/s01/201706/7445dd1680a1a0b51115257438917cb9.JPG",
-		"pattern":["到此為止", "終於結束", "可.*可惡"]
+		"pattern":["到此為止", "終於結束", "結束了", "可.*可惡"]
 	},
 	{
 		"url":"https://truth.bahamut.com.tw/s01/201706/efbd387c11920f31ff81f3b54865a8f2.JPG",
-		"pattern":["到此為止", "終於結束"]
+		"pattern":["到此為止", "終於結束", "結束了"]
 	},
 	{
 		"url":"https://truth.bahamut.com.tw/s01/201706/a74ab756c1168a209f61a6586a5df179.JPG",
-		"pattern":["到此為止", "終於結束"]
+		"pattern":["到此為止", "終於結束", "結束了"]
 	},
 	{
 		"url":"http://i.imgur.com/VsIuwp3.jpg",
-		"pattern":["到此為止", "終於結束"]
+		"pattern":["到此為止", "終於結束", "結束了"]
 	},
 	{
 		"url":"http://i.imgur.com/TK0nEVb.jpg",
-		"pattern":["到此為止", "終於結束"]
+		"pattern":["到此為止", "終於結束", "結束了"]
 	},
 	{
 		"url":"https://truth.bahamut.com.tw/s01/201701/cfba0a5dc6a383d40b2787e07e59636f.JPG",
@@ -570,5 +570,9 @@
 	{
 		"url": "http://i.imgur.com/H2GM4W9.jpg",
 		"pattern": ["垃圾", "柯P", "柯文哲"]
+	},
+	{
+		"url": "http://ubq.ubiaoqing.com/ubiaoqing57c5bf117223d18399.jpg",
+		"pattern": ["握草"]
 	}
 ]
